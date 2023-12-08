@@ -25,9 +25,9 @@ function showSlides() {
   setTimeout(showSlides, 9000);
 }
 
-//window.onload = function() {
-//  showSlides();
-//};
+window.onload = function() {
+showSlides();
+};
 
 console.log('Hello from script.js');
 // Hier wird überprüft, ob das Element mit der ID 'bestellen' vorhanden ist, bevor ein Event Listener hinzugefügt wird
@@ -52,4 +52,6 @@ if (bestellenButton) {
     document.getElementById('priceDisplay').textContent = 'Total Price: ' + totalPrice + ' CHF';
   });
 }
+
+//In  JS Fiddle hat der Code zum Anzeigen dekonnte ein Preis ausgerechnet werden
 
