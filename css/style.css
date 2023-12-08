@@ -1,0 +1,63 @@
+/* Stylesheet zur Gestaltung der Seite */
+
+body {
+        background-color: white;
+        font-family: sans-serif;
+}
+
+h1 {
+        background-color: blue;
+        color: blanchedalmond;
+        padding: 8px;
+
+}
+
+/* Provisorische Gestaltung der Navigationsleiste */
+
+.site-nav-list,
+.site-footer  {
+        background-color: black;
+        padding: 0.5em;
+
+}
+
+.site-nav-list li {
+        display: inline;
+        margin-right: 1em;
+
+}
+
+.site-nav-list a 
+.site-footer a {
+        color: white;
+        text-decoration: none;
+
+}
+
+/* Stile für die Slideshow */
+.slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    
+    .mySlides {
+        display: none;
+        animation: fadeInOut 9s ease-in-out infinite;
+        transition: left 1s ease-in-out;
+    }
+    
+    .mySlides img {
+        width: 100%;
+    }
+    
+    @keyframes fadeInOut {
+        0% {
+            opacity: 0.3;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
+    
