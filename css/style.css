@@ -19,14 +19,8 @@ body {
         font-family: sans-serif;
 }
 
-h1 {
-        background-color: blue;
-        color: blanchedalmond;
-        padding: 8px;
 
-}
-
-/* Provisorische Gestaltung der Navigationsleiste */
+/*  Navigationsleiste */
 
 .site-nav {
         position: sticky;
@@ -118,7 +112,7 @@ textarea {
 }
 
 button {
-    background-color: #4caf50;
+    background-color: #00ff2a;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -129,4 +123,170 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+/* footer*/
+.site-footer {
+    background-color: #000;
+    color: #fff;
+    text-align:left;
+    padding: 1em 0;
+    margin-top: 5em;
+    position: relative;
+    width: 100%;
+    
+}
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+p {
+    max-width: 60em;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h2 {
+    margin: 0 auto;
+    padding: 10px;
+    height: 50px;
+}
+
+
+/*shop*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.artikel {
+    background-color: greenyellow;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 250px;
+}
+
+.preis {
+    display: flex;
+    align-items: center;
+}
+
+#anzahl_cds {
+    width: 50px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.cd {
+    background-color: green;
+    width: 50px;
+    margin-right: 25px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.preis {
+    background-color: green;
+    width: 130px;
+    margin-right: 25px;
+    height: 50px;
+    padding-left: 10px;
+}
+.beschrieb {
+    background-color: green;
+    width: 225px;
+    margin-right: 25px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#personalien {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+#personalien ul{
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#personalien li {
+    margin-top: 30px;
+    margin-left: -25px;
+}
+
+.buttoncontainer {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#bestellen {
+    width: 100;
+    height: 30px;
+    border-style: none;
+    background-color: honeydew;
+    cursor: pointer;
+}
+
+#form {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    row-gap: 25px;
+    margin-top: 35px;
 }

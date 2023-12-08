@@ -24,37 +24,7 @@
 
     </header>
 
-    <!-- Bilder oben-->
-    <div class="slideshow-container">
-        <div class="mySlides">
-            <img src="img/MitRahmen/R_Studio1.jpg" alt="Bild 1">
-        </div>
-
-        <div class="mySlides">
-            <img src="img/MitRahmen/R_Studio2.jpg" alt="Bild 2">
-        </div>
-
-        <div class="mySlides">
-            <img src="img/MitRahmen/R_Studio3.jpg" alt="Bild 3">
-        </div>
-
-        <div class="mySlides">
-            <img src="img/MitRahmen/R_Studio4.jpg" alt="Bild 4">
-        </div>
-
-        <div class="mySlides">
-            <img src="img/MitRahmen/R_Studio5.jpg" alt="Bild 5">
-        </div>
-
-        <div class="mySlides">
-            <img src="img/MitRahmen/R_Studio6.jpg" alt="Bild 6">
-        </div>
-
-        <div class="mySlides">
-            <img src="img/MitRahmen/R_Studio7.jpg" alt="Bild 7">
-        </div>
     
-    </div>
 
     <!--Menue-->
     <nav class="site-nav">
@@ -70,8 +40,85 @@
     </nav>
     <!-- ende Menue-->
 
+    <!-- Shop-->
+    <div class="main_shop">
+        <div class="artikel">
+
+            <div class="cd flex">
+                <p>CD</p>
+            </div>
+
+            <div class="beschrieb flex">
+                <p>Beschrieb</p>
+            </div>
+
+            <div class="preis flex">
+                <p>Preis</p>
+                <input name="name" type="number" id="anzahl_cds" required autocomplete="number" min="1" max="5">
+            </div>
+
+    </div>
+        <div id="personalien">
+            <ul>
+                <li class="daten">Name</li>
+                <li class="daten">Vorname</li>
+                <li class="daten">Strasse</li>
+                <li class="daten">PLZ</li>
+            </ul>
+            <div id="form">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+            </div>
+        </div>
+        <div class="buttoncontainer">
+            <button id="bestellen">Bestellen</button>
+            <span id="priceDisplay"></span>
+        </div>
+
+</div>
+
     <footer class="site-footer">
-        <a href="#top">Nach oben</a>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Kontakt</h3>
+                <p>Email: info@lhfilmwerk.com</p>
+                <p>Ladenanschrift: Musterstraße 123, 12345 Musterstadt</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">Über Uns</a></li>
+                    <li><a href="#films">Filme</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="https://www.fhgr.ch/service/datenschutzerklaerung/">Datenschutz</a></li>
+                    <li><a href="https://www.fhgr.ch/impressum/">Impressum</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Über Uns</h3>
+                <p>Lars Hanselmann Filmwerk ist Ihre Anlaufstelle für fesselnde nonfiktionale Filme. Wir sind
+                    leidenschaftliche Geschichtenerzähler, die die Realität auf die Leinwand bringen. Tauchen Sie ein in
+                    die Welt des Films und entdecken Sie das Unerzählte.</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2023 Lars Hanselmann Filmwerk</p>
+        </div>
     </footer>
 </body>
 
