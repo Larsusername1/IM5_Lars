@@ -1,4 +1,18 @@
 /* Stylesheet zur Gestaltung der Seite */
+.site-header {
+    background-image: url('Banner.jpg'); /* Passe den Pfad zu deinem Bild an */
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: auto;
+    overflow: hidden;
+    top: 0;
+    z-index: 1000;
+}
+
 
 body {
         background-color: white;
@@ -14,10 +28,18 @@ h1 {
 
 /* Provisorische Gestaltung der Navigationsleiste */
 
-.site-nav-list,
-.site-footer  {
+.site-nav {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+}
+
+.site-nav-list {
         background-color: black;
         padding: 0.5em;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
 
 }
 
@@ -27,12 +49,20 @@ h1 {
 
 }
 
-.site-nav-list a 
-.site-footer a {
+.site-nav-list a {
         color: white;
         text-decoration: none;
-
+        padding: 0.6em; /* Hier kannst du die Polsterung für den Text einstellen */
+        transition: background-color 0.3s ease; /* Füge eine flüssige Übergangsanimation hinzu */
+        
 }
+
+.site-nav-list a:hover {
+    background-color: #00ff2a; /* Ändere die Hintergrundfarbe nach Bedarf */
+}
+
+
+/* Fixieren des menues*/
 
 /* Stile für die Slideshow */
 .slideshow-container {
