@@ -25,9 +25,9 @@ function showSlides() {
   setTimeout(showSlides, 9000);
 }
 
-window.onload = function() {
-  showSlides();
-};
+//window.onload = function() {
+//  showSlides();
+//};
 
 console.log('Hello from script.js');
 // Hier wird überprüft, ob das Element mit der ID 'bestellen' vorhanden ist, bevor ein Event Listener hinzugefügt wird
@@ -35,7 +35,9 @@ var bestellenButton = document.getElementById('bestellen');
 if (bestellenButton) {
   bestellenButton.addEventListener('click', function () {
     // Get the number of CDs entered by the user
+    console.log('Button clicked!');
     var numberOfCDs = document.getElementById('anzahl_cds').value;
+    console.log('Number of CDs:', numberOfCDs);
 
     // Ensure the input is a valid number
     if (isNaN(numberOfCDs) || numberOfCDs < 1 || numberOfCDs > 5) {
