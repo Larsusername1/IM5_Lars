@@ -53,5 +53,5 @@ if (bestellenButton) {
   });
 }
 
-//In  JS Fiddle hat der Code zum Anzeigen dekonnte ein Preis ausgerechnet werden
+//In  JS Fiddle konnte ein Preis ausgerechnet werden. In Chrome und Firefox hat der Code Fehler angezeigt. Es konnte nicht auf den Button zugreifen.
 
