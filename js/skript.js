@@ -29,3 +29,4 @@ window.onload = function() {
   showSlides();
 };
 
+console.log("Hallo");
